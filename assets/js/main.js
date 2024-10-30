@@ -719,43 +719,43 @@
 
 
   
-function submitbtn(){
-	let name = document.getElementById('name').value;
-  let email = document.getElementById('email').value;
-	let phone = document.getElementById('phone').value;
-	let city = document.getElementById('city').value;
-	let connectreason  = document.getElementById('connect').value;
+// function submitbtn(){
+// 	let name = document.getElementById('name').value;
+//   let email = document.getElementById('email').value;
+// 	let phone = document.getElementById('phone').value;
+// 	let city = document.getElementById('city').value;
+// 	let connectreason  = document.getElementById('connect').value;
 
-	if(name == ""){
-		alert("Name field required");
-		return;
-	}
-  if(email == ""){
-		alert("Email field required");
-		return;
-	}
-	if(phone == ""){
-		alert("Phone field required");
-		return;
-	}
-	if(city == ""){
-		alert("City field required");
-		return;
-	}
-  if(connectreason === "reason") {
-    alert("Please select a valid reason to connect.");
-    return;
-  }
+// 	if(name == ""){
+// 		alert("Name field required");
+// 		return;
+// 	}
+//   if(email == ""){
+// 		alert("Email field required");
+// 		return;
+// 	}
+// 	if(phone == ""){
+// 		alert("Phone field required");
+// 		return;
+// 	}
+// 	if(city == ""){
+// 		alert("City field required");
+// 		return;
+// 	}
+//   if(connectreason === "reason") {
+//     alert("Please select a valid reason to connect.");
+//     return;
+//   }
 
-	let formdata = {
-		name:name,
-    email:email,
-		phone:phone,
-		city:city,
-		connectreason:connectreason,
-	}
-	console.log(formdata)
-	alert("Form Submission successfull")
-	document.getElementById('contact-form').reset();
+// 	let formdata = {
+// 		name:name,
+//     email:email,
+// 		phone:phone,
+// 		city:city,
+// 		connectreason:connectreason,
+// 	}
+// 	console.log(formdata)
+// 	alert("Form Submission successfull")
+// 	document.getElementById('contact-form').reset();
 
-}
+// }
