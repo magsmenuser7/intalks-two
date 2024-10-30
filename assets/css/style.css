@@ -23980,4 +23980,19 @@ select{
     height: 30px;
   
   }
+
+  .bg_image .click-here-text {
+    position: absolute;
+    color: #fff;
+    overflow: hidden;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #fff;
+    padding:0px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 6px;
+    line-height: 1.5rem;
+  }
 }
