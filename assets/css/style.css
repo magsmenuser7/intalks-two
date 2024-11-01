@@ -23957,14 +23957,14 @@ select{
 
 .bg_image{
   position: relative;
-
++
 }
 
 .bg_image .click-here-text{
   position: absolute;
   color: #fff;
   overflow: hidden;
-  top: 50%;
+  top: 60%;
   left: 53%;
   transform: translate(-50%, -50%);
   border: 2px solid #fff;
@@ -23980,7 +23980,6 @@ select{
     height: 30px;
   
   }
-
   .bg_image .click-here-text {
     position: absolute;
     color: #fff;
